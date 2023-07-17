@@ -1,5 +1,7 @@
-var myCat = {
-    "name": "Meowsalot",
-    "species": "cat",
-    "favFood": "tuna"
+var ourRequest = new XMLHttpRequest();
+ourRequest.onprogress('GET','https://learnwebcode.github.io/json-example/animals-1.json');
+ourRequest.onload = function () {
+    var ourData = JSON.parse(ourRequest.responseText);
+    console.log(ourData[0]);
 };
+ourRequest.send();

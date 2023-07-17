@@ -1,0 +1,19 @@
+body {
+    font: normal 14pt Arial;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+button#btn {
+    display: block;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(29, 125, 104);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.486);
+    color: white;
+}
+
+button#btn {
+    cursor: pointer;
+}
