@@ -4,6 +4,12 @@ body {
     flex-flow: column wrap;
 }
 
+header {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
 button#btn {
     display: block;
     border-radius: 5px;
