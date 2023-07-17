@@ -1,7 +1,7 @@
 body {
     font: normal 14pt Arial;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 
 button#btn {
@@ -16,4 +16,5 @@ button#btn {
 
 button#btn {
     cursor: pointer;
+    font-weight: bold;
 }
